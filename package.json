@@ -1,0 +1,42 @@
+{
+    "name": "custom-select-gls",
+    "version": "1.0.7",
+    "description": "A custom select dropdown with search functionality inside",
+    "main": "index.js",
+    "scripts": {
+      "build": "babel src --out-file index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sashank-gl/custom-select-gl.git"
+    },
+    "keywords": [
+      "react-select",
+      "custom-select-gl",
+      "select",
+      "react",
+      "dropdown"
+    ],
+    "author": "Lakshmi Sashank Gandodi",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/sashank-gl/custom-select-gl/issues"
+    },
+    "homepage": "https://github.com/sashank-gl/custom-select-gl#readme",
+    "devDependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "peerDependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "dependencies": {
+      "@babel/cli": "^7.22.5",
+      "@babel/core": "^7.22.5",
+      "@babel/preset-env": "^7.22.5",
+      "@babel/preset-react": "^7.22.5"
+    }
+  }
+  
